@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Swimming camps by ThreeGiants</string>
+    <string name="header">Swimming camps powered by</string>
+    <string name="question">Boredom in summer holiday? Not anymore!</string>
+    <string name="text2">We focus on children having fun and joy in learning swimming. Together with our coaches they will practice all types of swim techniques. In addition to sessions, there are exciting leisure programs: drawing, playing card- and board games or various activities in the gym or outdoors. Sign up!</string>
+    <string name="dates">dates:</string>
+    <string name="week1">Camp week 1.: 03.07. - 07.07.2017</string>
+    <string name="week2">Camp week 2.: 10.07. - 14.07.2017</string>
+    <string name="week3">Camp week 3.: 14.07. - 21.07.2017</string>
+    <string name="schedule">Schedule:</string>
+    <string name="schedule1">7:45-8:15: Check-In</string>
+    <string name="schedule2">8:15-16:00: 2 swim sessions, play, lunch break, rest, gym</string>
+    <string name="schedule3">16:00-16:15: Check-Out</string>
+    <string name="age">4-10 years old</string>
+    <string name="size">5-8 children pro trainer</string>
+    <string name="price">Price: 199€</string>
+    <string name="contact">contact</string>
+    <string name="tellNumber">+436604975475</string>
+    <string name="emailAddress">office@three-giants.com</string>
+    <string name="website">www.three-giants.com</string>
+</resources>

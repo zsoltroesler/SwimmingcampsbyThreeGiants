@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.swimmingcampsbythreegiants.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/backgroundPicHeight">
+
+            <ImageView
+                style="@style/backgroundPic"
+                android:src="@drawable/swimmingkids1"/>
+
+            <TextView
+                style="@style/header" />
+
+            <ImageView
+                android:id="@id/logo"
+                style="@style/logo"
+                android:src="@drawable/logo" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/question"/>
+
+            <View
+                style="@style/divider"/>
+
+            <WebView
+                android:id="@id/text2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <View
+                style="@style/divider"/>
+
+            <TextView
+                style="@style/titel"
+                android:text="@string/dates"/>
+
+            <TextView
+                style="@style/text"
+                android:text="@string/week1"/>
+
+            <TextView
+                style="@style/text"
+                android:text="@string/week2"/>
+
+            <TextView
+                style="@style/text"
+                android:text="@string/week3"
+                android:layout_marginBottom="@dimen/marginBottom"/>
+
+            <View
+                style="@style/divider"/>
+
+            <TextView
+                style="@style/titel"
+                android:text="@string/schedule"/>
+
+            <TextView
+                style="@style/text"
+                android:text="@string/schedule1"/>
+
+            <TextView
+                style="@style/text"
+                android:text="@string/schedule2"/>
+
+            <TextView
+                style="@style/text"
+                android:text="@string/schedule3"
+                android:layout_marginBottom="@dimen/marginBottom"/>
+
+            <View
+                style="@style/divider"/>
+
+            <TextView
+                style="@style/titel"
+                android:text="@string/price"
+                android:layout_marginBottom="@dimen/marginBottom"/>
+
+            <View
+                style="@style/divider"/>
+
+            <TextView
+                style="@style/titel"
+                android:text="@string/contact"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="call">
+
+                <ImageView
+                    style="@style/iconImage"
+                    android:src="@drawable/iconcall"/>
+
+                <TextView
+                    style="@style/iconText"
+                    android:text="@string/tellNumber"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="email">
+
+                <ImageView
+                    style="@style/iconImage"
+                    android:src="@drawable/iconemail"/>
+
+                <TextView
+                    style="@style/iconText"
+                    android:text="@string/emailAddress"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="web">
+
+                <ImageView
+                    style="@style/iconImage"
+                    android:src="@drawable/iconweb"/>
+
+                <TextView
+                    style="@style/iconText"
+                    android:text="@string/website"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
+

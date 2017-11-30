@@ -40,7 +40,7 @@
                 style="@style/divider"/>
 
             <WebView
-                android:id="@id/text2"
+                android:id="@id/webview_description"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 
@@ -100,9 +100,10 @@
                 android:text="@string/contact"/>
 
             <LinearLayout
+                android:id="@+id/call"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:onClick="call">
+                android:background="?android:attr/selectableItemBackground">
 
                 <ImageView
                     style="@style/iconImage"
@@ -115,9 +116,10 @@
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/email"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:onClick="email">
+                android:background="?android:attr/selectableItemBackground">
 
                 <ImageView
                     style="@style/iconImage"
@@ -130,9 +132,10 @@
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/web"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:onClick="web">
+                android:background="?android:attr/selectableItemBackground">
 
                 <ImageView
                     style="@style/iconImage"

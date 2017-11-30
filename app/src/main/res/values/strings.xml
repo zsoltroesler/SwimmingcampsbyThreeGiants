@@ -2,7 +2,7 @@
     <string name="app_name">Swimming camps by ThreeGiants</string>
     <string name="header">Swimming camps powered by</string>
     <string name="question">Boredom in summer holiday? Not anymore!</string>
-    <string name="text2">We focus on children having fun and joy in learning swimming. Together with our coaches they will practice all types of swim techniques. In addition to sessions, there are exciting leisure programs: drawing, playing card- and board games or various activities in the gym or outdoors. Sign up!</string>
+    <string name="text">We focus on children having fun and joy in learning swimming. Together with our coaches they will practice all types of swim techniques. In addition to sessions, there are exciting leisure programs: drawing, playing card- and board games or various activities in the gym or outdoors. Sign up!</string>
     <string name="dates">dates:</string>
     <string name="week1">Camp week 1.: 03.07. - 07.07.2017</string>
     <string name="week2">Camp week 2.: 10.07. - 14.07.2017</string>
@@ -15,7 +15,9 @@
     <string name="size">5-8 children pro trainer</string>
     <string name="price">Price: 199€</string>
     <string name="contact">contact</string>
-    <string name="tellNumber">+436604975475</string>
+    <string name="tellNumber">+436766922642</string>
     <string name="emailAddress">office@three-giants.com</string>
+    <string name="emailSubject">Summer swim camp</string>
     <string name="website">www.three-giants.com</string>
+    <string name="url">http://www.three-giants.com/schwimmkurse/threegiants-schwimmcamp-sudstadt</string>
 </resources>

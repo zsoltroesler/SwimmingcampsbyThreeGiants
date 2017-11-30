@@ -3,7 +3,7 @@ Udacity Android Basic Nanodegree by Google program
 
 **Project #1: Single screen app**
 
-Project overview: Design and implement a single screen app that displays information about a local small business. I made this app for my local triathlon club, who organizes summer swimming camps for children every year.
+Project overview: Design and implement a single screen app that displays information about a local small business. I made this app for my local triathlon club. They organize summer swimming camps for kids every year.
 
 Tags: userinterface, intent
 
